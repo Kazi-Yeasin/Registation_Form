@@ -9,33 +9,33 @@
     <form action="/action.php" method="post">
       <big><h1>Student Registation Form</h1></big>
       <label for="roll">Roll no. :</label>
-      <input type="tel" size="6" id="roll" placeholder="121315" />
+      <input type="tel" size="6" name="roll" id="roll" placeholder="121315" />
       <br />
       <br />
       <label for="Student_name">Student name :</label>
-      <input type="text" placeholder="First Name" id="Student_name" /> -
-      <input type="text" placeholder="Last Name" id="Student_name"/>
+      <input type="text" placeholder="First Name" id="Student_name" name="fname"/> -
+      <input type="text" placeholder="Last Name" id="Student_name" name="lname"/>
       <br />
       <br />
       <label for="F">Father's Name :</label>
-      <input type="text" id="F" />
+      <input type="text" id="F" name="F"/>
       <br />
       <br />
       <label for="date">Date of birth :</label>
-      <input type="date" id="date" />
+      <input type="date" id="date" name="date"/>
       <br />
       <br />
       <label for="number">Mobile no. :</label>
-      <input type="text" value="+880" id="number" readonly size="4"/> -
-      <input type="text" id="number" />
+      <input type="tel" value="+880" id="number" name="number" readonly size="4"/> -
+      <input type="tel" id="number" name="number" maxlength="10" pattern="(0-9){10}"/>
       <br />
       <br />
-      <label for="emal">Email Id :</label>
-      <input type="email" id="emal" placeholder="kaziyeasinarafat221@gmail.com"/>
+      <label for="email">Email Id :</label>
+      <input type="email" id="email" name="email" placeholder="kaziyeasinarafat221@gmail.com"/>
       <br />
       <br />
       <label for="pass">Password :</label>
-      <input type="password" id="pass" size="4" />
+      <input type="password" id="pass" name="pass size="4" />
       <br/>
       <br />
       <label>Gender :</label>
@@ -46,15 +46,15 @@
       <br />
       <br />
       <label>Department :</label>
-      <input type="checkbox" name="CSE" id="cse" />
+      <input type="checkbox" name="CSE" id="cse" value="CSE" />
       <label for="cse">CSE</label>
-      <input type="checkbox" name="IT" id="it" />
+      <input type="checkbox" name="IT" id="it" value="IT"/>
       <label for="it">IT</label>
-      <input type="checkbox" name="ECE" id="ece" />
+      <input type="checkbox" name="ECE" id="ece" value="ECE"/>
       <label for="ece">ECE</label>
-      <input type="checkbox" name="CIVIL" id="civil" />
+      <input type="checkbox" name="CIVIL" id="civil" value="CIVIL"/>
       <label for="civil">CIVIL</label>
-      <input type="checkbox" name="MECHANICAL" id="mech" />
+      <input type="checkbox" name="MECHANICAL" id="mech" value="MECHANICAL"/>
       <label for="mech">MECHANICAL</label>
       <br />
       <br />
